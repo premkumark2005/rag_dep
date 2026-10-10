@@ -1,0 +1,5 @@
+Python was created by Guido van Rossum. Development began at the Centrum Wiskunde & Informatica (CWI) in the Netherlands in the late 1980s. Guido van Rossum served as the principal author and initial developer of Python.
+
+The first public version of Python was Python 0.9.0, released in February 1991. This release already included important language features such as classes, exception handling, functions, and core data types.
+
+The available information identifies Guido van Rossum as the creator of Python. It does not provide information about his salary when Python was created or his exact salary at the time of the first release.

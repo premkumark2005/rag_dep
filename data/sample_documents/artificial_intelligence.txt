@@ -1,0 +1,4 @@
+Artificial intelligence is the broader discipline of creating systems that perform tasks requiring human-like intelligence.
+Examples include language understanding, computer vision, planning, and decision-making.
+Machine learning is a major subfield of artificial intelligence.
+

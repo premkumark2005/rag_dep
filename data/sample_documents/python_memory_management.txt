@@ -1,0 +1,5 @@
+Python manages memory automatically. Objects are created and stored in memory while they are in use, and Python's memory-management system reclaims memory when objects are no longer needed.
+
+CPython, the commonly used Python implementation, uses reference counting as an important part of its memory-management strategy. It also includes a cyclic garbage collector to handle reference cycles.
+
+Programmers generally do not explicitly allocate and free individual Python objects in the same way they might in a language with manual memory management.

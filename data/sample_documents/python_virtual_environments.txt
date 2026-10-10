@@ -1,0 +1,5 @@
+A Python virtual environment is an isolated environment that can contain a separate Python installation and set of installed packages for a project.
+
+Virtual environments help prevent dependencies from different projects from interfering with one another. Python provides the venv module for creating virtual environments.
+
+A common workflow is to create a virtual environment, activate it, and install project dependencies using pip. The exact activation command depends on the operating system and shell.

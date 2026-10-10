@@ -1,0 +1,212 @@
+[
+  {
+    "id": "JQ001",
+    "question": "Who created Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Guido van Rossum."
+  },
+  {
+    "id": "JQ002",
+    "question": "What is the purpose of the venv module in Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "The venv module is used to create isolated Python virtual environments."
+  },
+  {
+    "id": "JQ003",
+    "question": "What statement is used to define a function in Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "The def keyword is used to define a function."
+  },
+  {
+    "id": "JQ004",
+    "question": "What does the break statement do in Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "It terminates the loop."
+  },
+  {
+    "id": "JQ005",
+    "question": "What was Guido van Rossum's exact salary when he created Python?",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "The knowledge base does not provide Guido van Rossum's salary."
+  },
+  {
+    "id": "JQ006",
+    "question": "What was the exact number of developers who worked on Python 0.9.0 before its first public release?",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "The knowledge base does not provide the number of developers."
+  },
+  {
+    "id": "JQ007",
+    "question": "Which NASA mission first used Python for spacecraft control?",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "The knowledge base contains no information identifying such a NASA mission."
+  },
+  {
+    "id": "JQ008",
+    "question": "Why was Python released in 1985?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise_and_answer",
+    "ground_truth": "The premise is false. Python's first public release was Python 0.9.0 in February 1991."
+  },
+  {
+    "id": "JQ009",
+    "question": "Was Python created as a replacement for Java?",
+    "category": "false_premise",
+    "expected_behavior": "reject_false_premise",
+    "ground_truth": "No. Python was designed as a successor to ABC, not as a replacement for Java."
+  },
+  {
+    "id": "JQ010",
+    "question": "Did Python 3.0 maintain full backward compatibility with Python 2?",
+    "category": "false_premise",
+    "expected_behavior": "reject_false_premise",
+    "ground_truth": "No. Python 3.0 was a major revision and was not fully backward compatible with Python 2."
+  },
+  {
+    "id": "JQ011",
+    "question": "Was Java publicly released before Python's first public release?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise_and_answer",
+    "ground_truth": "No. Python's first public release was in 1991, while Java was publicly introduced later in the 1990s."
+  },
+  {
+    "id": "JQ012",
+    "question": "Where was Python developed and what organization was involved?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_with_available_evidence",
+    "ground_truth": "Development began at Centrum Wiskunde & Informatica (CWI) in the Netherlands."
+  },
+  {
+    "id": "JQ013",
+    "question": "What does the with statement do when working with files, and what exact operating-system-specific command should be used to activate a virtual environment?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_known_part_and_abstain_unknown_part",
+    "ground_truth": "The with statement helps ensure a file is properly closed. The exact activation command depends on the operating system and shell, and no single universal command is provided."
+  },
+  {
+    "id": "JQ014",
+    "question": "What are Python's common web frameworks, and which one is faster in every possible workload?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_supported_part_and_reject_unsupported_claim",
+    "ground_truth": "Django is a high-level, batteries-included framework and Flask is a lightweight framework with a smaller core. The knowledge base does not establish that either is faster in every workload."
+  },
+  {
+    "id": "JQ015",
+    "question": "What is pip used for, and what exact package index ranking algorithm does pip use internally?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_supported_part_and_abstain_unknown_part",
+    "ground_truth": "pip is a package-management tool used to install Python packages. The knowledge base does not specify an internal package-index ranking algorithm."
+  },
+  {
+    "id": "JQ016",
+    "question": "Who created Python, where did development begin, and when was the first public release?",
+    "category": "multi_fact",
+    "expected_behavior": "answer_all_supported_facts",
+    "ground_truth": "Guido van Rossum created Python; development began at CWI in the Netherlands; Python 0.9.0 was first publicly released in February 1991."
+  },
+  {
+    "id": "JQ017",
+    "question": "What are Python's three major programming styles mentioned in the knowledge base?",
+    "category": "multi_fact",
+    "expected_behavior": "answer_all_supported_facts",
+    "ground_truth": "Procedural, object-oriented, and functional programming."
+  },
+  {
+    "id": "JQ018",
+    "question": "What are the three main approaches to concurrency described for Python, and what is asyncio used for?",
+    "category": "multi_fact",
+    "expected_behavior": "answer_all_supported_facts",
+    "ground_truth": "Threading, multiprocessing, and asynchronous programming; asyncio provides tools for asynchronous programming using an event loop and coroutines."
+  },
+  {
+    "id": "JQ019",
+    "question": "What are list, tuple, set, and dictionary, and which of them is described as an ordered mutable collection?",
+    "category": "multi_fact",
+    "expected_behavior": "answer_all_supported_facts",
+    "ground_truth": "A list is an ordered mutable collection; a tuple is generally immutable and ordered; a set stores unique elements without conventional positional indexing; a dictionary stores key-value pairs."
+  },
+  {
+    "id": "JQ020",
+    "question": "When was Python 0.9.0 first publicly released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_exactly",
+    "ground_truth": "February 1991."
+  },
+  {
+    "id": "JQ021",
+    "question": "In which month and year was Python 1.0 released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_exactly",
+    "ground_truth": "January 1994."
+  },
+  {
+    "id": "JQ022",
+    "question": "In which month and year did Python 2.0 reach release, according to the knowledge base?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_exactly",
+    "ground_truth": "October 2000."
+  },
+  {
+    "id": "JQ023",
+    "question": "Which organization is associated with the beginning of Python development: CWI or the Python Software Foundation?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "CWI (Centrum Wiskunde & Informatica) is associated with the beginning of Python development."
+  },
+  {
+    "id": "JQ024",
+    "question": "Which module is used to create virtual environments: venv or asyncio?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "venv is used to create virtual environments; asyncio is for asynchronous programming."
+  },
+  {
+    "id": "JQ025",
+    "question": "Which statement is associated with handling an exception: except or yield?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "except is used in exception handling; yield is used by generator functions to produce values lazily."
+  },
+  {
+    "id": "JQ026",
+    "question": "Which tool manages Python packages: pip or pathlib?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "pip is a package-management tool; pathlib is used for filesystem-related operations."
+  },
+  {
+    "id": "JQ027",
+    "question": "If a Python function needs to produce one value at a time instead of constructing the entire sequence in memory, which Python feature is appropriate and why?",
+    "category": "reasoning",
+    "expected_behavior": "answer_with_explanation",
+    "ground_truth": "A generator is appropriate because it produces values lazily, one at a time, rather than creating the complete sequence in memory."
+  },
+  {
+    "id": "JQ028",
+    "question": "Why can a virtual environment be useful when two Python projects require different package dependencies?",
+    "category": "reasoning",
+    "expected_behavior": "answer_with_explanation",
+    "ground_truth": "Virtual environments isolate project dependencies so packages from different projects do not interfere with one another."
+  },
+  {
+    "id": "JQ029",
+    "question": "Why is the with statement recommended when working with files?",
+    "category": "reasoning",
+    "expected_behavior": "answer_with_explanation",
+    "ground_truth": "It helps ensure that the file is properly closed after the operation is completed."
+  },
+  {
+    "id": "JQ030",
+    "question": "A user asks for the exact release date of a Python minor version, but the knowledge base only provides exact information for major release families. What should a hallucination-resistant RAG system do?",
+    "category": "missing_information",
+    "expected_behavior": "abstain_from_unsupported_detail",
+    "ground_truth": "It should state that the exact minor-version release date is not available in the provided evidence rather than inventing a date."
+  }
+]

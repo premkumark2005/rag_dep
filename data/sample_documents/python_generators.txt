@@ -1,0 +1,5 @@
+A generator is a Python construct that produces values lazily rather than creating the complete sequence in memory at once.
+
+Generator functions use the yield statement to produce values. Each time a generator resumes, execution continues from where it previously yielded a value.
+
+Generators can be useful when processing large sequences or streams of data because values can be produced one at a time. Generator expressions provide a compact syntax for creating generators.

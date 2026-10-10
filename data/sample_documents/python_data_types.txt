@@ -1,0 +1,5 @@
+Python provides several built-in data types. Common scalar types include integers, floating-point numbers, complex numbers, Boolean values, and strings.
+
+Important collection types include lists, tuples, sets, and dictionaries. A list is an ordered, mutable collection. A tuple is an ordered collection that is generally immutable. A set stores unique elements without using a conventional positional index. A dictionary stores key-value pairs.
+
+Python also provides the None value, which is commonly used to represent the absence of a value. Variables in Python are dynamically typed, so the type associated with a value can be determined at runtime.

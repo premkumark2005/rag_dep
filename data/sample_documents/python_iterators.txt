@@ -1,0 +1,5 @@
+An iterator is an object that produces items one at a time. Python's iteration protocol uses the __iter__ and __next__ methods.
+
+The iter function can obtain an iterator from an iterable object. The next function requests the next item from an iterator. When no more items are available, the iterator raises StopIteration.
+
+Lists, tuples, strings, dictionaries, sets, and many other Python objects are iterable. Iterators are closely related to generators, which provide a convenient way to create iterator behavior.

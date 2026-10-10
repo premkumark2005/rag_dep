@@ -1,0 +1,5 @@
+A function in Python is a reusable block of code defined with the def keyword. Functions can accept parameters and can return values using the return statement.
+
+Python supports positional arguments, keyword arguments, default parameter values, and variable-length argument lists. Functions are first-class objects, which means they can be assigned to variables, passed as arguments, and returned from other functions.
+
+Anonymous functions can be created using the lambda expression. Functions help organize programs into smaller and reusable units.

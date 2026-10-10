@@ -1,0 +1,5 @@
+A Python module is a file containing Python definitions and statements. Modules allow code to be organized and reused across programs.
+
+The import statement is used to make names from another module available. Python also supports importing selected names with statements such as from module import name.
+
+A package is a way to organize related Python modules into a directory structure. The Python standard library contains many modules that provide functionality for tasks such as file handling, operating-system interaction, mathematics, networking, and text processing.

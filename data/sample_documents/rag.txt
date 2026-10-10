@@ -1,0 +1,4 @@
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation.
+A retriever fetches relevant evidence, and a generator uses that evidence to produce grounded answers.
+RAG can reduce hallucinations by constraining generation to retrieved context.
+

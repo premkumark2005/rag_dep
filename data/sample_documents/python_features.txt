@@ -1,0 +1,5 @@
+Python is a high-level programming language with a focus on readability and simplicity. Important characteristics include dynamic typing, automatic memory management, a large standard library, and support for multiple programming paradigms.
+
+Python supports procedural, object-oriented, and functional programming styles. Its syntax uses indentation to define code blocks rather than braces.
+
+Python also provides exception handling, modules, packages, iterators, generators, decorators, and comprehensions. These features allow programmers to build applications using relatively concise source code.

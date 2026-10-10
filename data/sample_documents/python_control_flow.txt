@@ -1,0 +1,5 @@
+Python provides control-flow statements for making decisions and repeating operations. The if, elif, and else statements are used for conditional execution.
+
+Python provides for loops and while loops for repetition. A for loop is commonly used to iterate over items in an iterable. A while loop repeats while its condition remains true.
+
+The break statement terminates a loop, while continue skips the remaining statements in the current iteration and continues with the next iteration. The pass statement performs no operation and can be used as a placeholder.

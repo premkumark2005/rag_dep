@@ -1,0 +1,4 @@
+Python is a high-level programming language created by Guido van Rossum and first released in 1991.
+Python emphasizes readability with clear syntax and significant indentation.
+It is widely used for web development, automation, data science, and artificial intelligence.
+

@@ -1,0 +1,5 @@
+Python provides the built-in open function for working with files. A file can be opened for reading, writing, appending, or other supported modes.
+
+The with statement is commonly used when working with files because it helps ensure that the file is properly closed after the operation is completed.
+
+Text files can be read using methods such as read, readline, and readlines. Data can be written using the write and writelines methods. The exact encoding should be considered when working with text files.

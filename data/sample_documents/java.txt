@@ -1,0 +1,4 @@
+Java is an object-oriented programming language originally developed at Sun Microsystems.
+James Gosling is known as the principal creator of Java.
+Java programs are compiled into bytecode that runs on the Java Virtual Machine.
+

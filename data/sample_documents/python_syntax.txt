@@ -1,0 +1,5 @@
+Python syntax is designed to be readable and relatively concise. Indentation is syntactically significant and is used to define groups of statements.
+
+Statements such as if, for, while, and def introduce blocks of code whose indentation determines their scope. Python commonly uses four spaces for each indentation level.
+
+Comments begin with the # character. Python also supports strings with single or double quotation marks and provides multiline string syntax using triple quotes.

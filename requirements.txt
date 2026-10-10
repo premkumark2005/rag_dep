@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+numpy
+pydantic
+pydantic-settings
+python-dotenv
+pytest
+rich
+rank-bm25
+groq
+httpx

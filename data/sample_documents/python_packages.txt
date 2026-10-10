@@ -1,0 +1,5 @@
+pip is a package-management tool commonly used to install Python packages from package indexes and other supported sources.
+
+A requirements file can list project dependencies so that environments can be reproduced more easily. A common convention is to store dependencies in a file named requirements.txt.
+
+Python projects may use packages from the Python Package Index (PyPI). Package versions can be specified when a project requires a particular version or compatible range.

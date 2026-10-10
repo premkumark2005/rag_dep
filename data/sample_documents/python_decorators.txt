@@ -1,0 +1,5 @@
+A decorator is a callable that can modify or extend the behavior of another function or class without directly changing its source code.
+
+Decorators are commonly written using the @decorator syntax placed above a function or class definition. A decorator typically receives a callable and returns another callable.
+
+The functools.wraps utility is commonly used when writing function decorators because it helps preserve metadata from the original function.

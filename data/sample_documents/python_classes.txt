@@ -1,0 +1,5 @@
+Python supports object-oriented programming through classes and objects. A class defines attributes and behavior that can be associated with objects created from the class.
+
+The __init__ method is commonly used to initialize an object's attributes. The self parameter conventionally refers to the current instance.
+
+Python supports inheritance, allowing a class to derive behavior from another class. It also supports method overriding and multiple inheritance. Encapsulation in Python is primarily based on conventions and name-mangling mechanisms rather than strict access modifiers.

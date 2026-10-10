@@ -1,0 +1,5 @@
+Python includes a standard library that provides modules for many common programming tasks. Examples include os and pathlib for filesystem-related operations, math for mathematical functions, json for JSON processing, datetime for dates and times, re for regular expressions, and collections for specialized container data types.
+
+The standard library reduces the need to implement common functionality from scratch. Third-party packages can provide additional capabilities beyond the standard library.
+
+The exact set of modules and their APIs depends on the Python version being used.

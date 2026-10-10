@@ -1,0 +1,5 @@
+Exceptions are events that interrupt the normal flow of a Python program when an error or exceptional condition occurs.
+
+Python uses try and except blocks to handle exceptions. A finally block can contain code that should execute whether or not an exception occurs. The else block associated with exception handling can execute when no exception occurs in the try block.
+
+The raise statement allows a program to explicitly raise an exception. Common built-in exceptions include ValueError, TypeError, NameError, IndexError, KeyError, and ZeroDivisionError.

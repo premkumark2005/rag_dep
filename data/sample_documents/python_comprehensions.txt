@@ -1,0 +1,5 @@
+Python provides list, set, and dictionary comprehensions for constructing collections from iterable data using a compact expression.
+
+A list comprehension can transform or filter elements while producing a list. Set comprehensions produce sets, and dictionary comprehensions produce dictionaries.
+
+Comprehensions can make straightforward transformations concise, but complex expressions may be less readable than an ordinary loop.

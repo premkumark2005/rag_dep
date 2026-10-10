@@ -1,0 +1,4 @@
+Transformers are neural network architectures based on self-attention mechanisms.
+They process tokens in parallel and capture long-range dependencies effectively.
+Popular transformer-based models include BERT, GPT, and T5.
+

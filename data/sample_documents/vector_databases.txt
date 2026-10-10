@@ -1,0 +1,4 @@
+Vector databases store high-dimensional embeddings for efficient similarity search.
+They are commonly used in semantic search, recommendation, and RAG systems.
+FAISS is a popular library for approximate and exact nearest-neighbor search over vectors.
+

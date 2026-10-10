@@ -1,0 +1,5 @@
+Python is widely used for web development. Web frameworks and libraries can provide routing, request handling, templates, database integration, authentication, and other web application functionality.
+
+Django is a high-level Python web framework that follows a batteries-included approach. Flask is a lightweight web framework that provides a smaller core and can be extended with additional components.
+
+Python web applications can be deployed using application servers and web servers appropriate to the selected framework and deployment architecture.

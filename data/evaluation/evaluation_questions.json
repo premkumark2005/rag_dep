@@ -1,0 +1,702 @@
+[
+  {
+    "id": "Q001",
+    "question": "Who created Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Guido van Rossum."
+  },
+  {
+    "id": "Q002",
+    "question": "When was Python first publicly released?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "February 1991."
+  },
+  {
+    "id": "Q003",
+    "question": "Where did Guido van Rossum work when Python was developed?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Centrum Wiskunde & Informatica (CWI) in the Netherlands."
+  },
+  {
+    "id": "Q004",
+    "question": "What programming language influenced Python's design?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "ABC."
+  },
+  {
+    "id": "Q005",
+    "question": "What was Python designed as a successor to?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "The ABC programming language."
+  },
+  {
+    "id": "Q006",
+    "question": "When was Python 0.9.0 released?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "February 1991."
+  },
+  {
+    "id": "Q007",
+    "question": "When was Python 1.0 released?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "January 1994."
+  },
+  {
+    "id": "Q008",
+    "question": "When was Python 2.0 released?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "October 2000."
+  },
+  {
+    "id": "Q009",
+    "question": "When was Python 3.0 released?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "December 2008."
+  },
+  {
+    "id": "Q010",
+    "question": "When did Python 2 officially reach end of life?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "January 2020."
+  },
+  {
+    "id": "Q011",
+    "question": "What are some major characteristics of Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Readability, simplicity, dynamic typing, automatic memory management, a large standard library, and support for multiple programming paradigms."
+  },
+  {
+    "id": "Q012",
+    "question": "Which programming paradigms does Python support?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Procedural, object-oriented, and functional programming."
+  },
+  {
+    "id": "Q013",
+    "question": "How are code blocks defined in Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "By indentation."
+  },
+  {
+    "id": "Q014",
+    "question": "What is a Python module?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "A file containing Python definitions and statements."
+  },
+  {
+    "id": "Q015",
+    "question": "What is a Python package?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "A way to organize related Python modules into a directory structure."
+  },
+  {
+    "id": "Q016",
+    "question": "What keyword is used to define a function in Python?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "def."
+  },
+  {
+    "id": "Q017",
+    "question": "What keyword is used to return a value from a function?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "return."
+  },
+  {
+    "id": "Q018",
+    "question": "What is a generator?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "A construct that produces values lazily rather than creating the complete sequence in memory at once."
+  },
+  {
+    "id": "Q019",
+    "question": "Which keyword is used by generator functions to produce values?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "yield."
+  },
+  {
+    "id": "Q020",
+    "question": "What is a decorator?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "A callable that can modify or extend the behavior of another function or class."
+  },
+  {
+    "id": "Q021",
+    "question": "What does the @decorator syntax do?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "It applies a decorator to a function or class definition."
+  },
+  {
+    "id": "Q022",
+    "question": "What is an iterator?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "An object that produces items one at a time."
+  },
+  {
+    "id": "Q023",
+    "question": "Which exception signals that an iterator has no more items?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "StopIteration."
+  },
+  {
+    "id": "Q024",
+    "question": "What module can be used to create virtual environments?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "venv."
+  },
+  {
+    "id": "Q025",
+    "question": "What is pip commonly used for?",
+    "category": "answerable",
+    "expected_behavior": "answer",
+    "ground_truth": "Installing Python packages."
+  },
+  {
+    "id": "Q026",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q027",
+    "question": "H",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "o"
+  },
+  {
+    "id": "Q028",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q029",
+    "question": "H",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "o"
+  },
+  {
+    "id": "Q030",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q031",
+    "question": "H",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "o"
+  },
+  {
+    "id": "Q032",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q033",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q034",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q035",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q036",
+    "question": "H",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "o"
+  },
+  {
+    "id": "Q037",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q038",
+    "question": "H",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "o"
+  },
+  {
+    "id": "Q039",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q040",
+    "question": "W",
+    "category": "missing_information",
+    "expected_behavior": "abstain",
+    "ground_truth": "h"
+  },
+  {
+    "id": "Q041",
+    "question": "Why was Python released in 1985?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; the first public release was in February 1991."
+  },
+  {
+    "id": "Q042",
+    "question": "Why was Python created as a replacement for Java?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is unsupported/incorrect; the documents describe Python as a successor to ABC, and Python predates Java's public introduction."
+  },
+  {
+    "id": "Q043",
+    "question": "Why did Python replace Java when it was released?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The documents do not support the premise that Python replaced Java."
+  },
+  {
+    "id": "Q044",
+    "question": "Why was Python 3.0 released before Python 2.0?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python 2.0 was released in October 2000 and Python 3.0 in December 2008."
+  },
+  {
+    "id": "Q045",
+    "question": "Why did Python 2 reach end of life in 2010?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; the document states January 2020."
+  },
+  {
+    "id": "Q046",
+    "question": "Why was Python created at a Java company?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The provided documents say development occurred at CWI in the Netherlands; they do not support that premise."
+  },
+  {
+    "id": "Q047",
+    "question": "Why did Guido van Rossum create Python after Java was released?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect because Python's first public release was in 1991, before Java was publicly introduced."
+  },
+  {
+    "id": "Q048",
+    "question": "Why was Python designed as a replacement for C?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The documents state that Python was designed as a successor to ABC, not C."
+  },
+  {
+    "id": "Q049",
+    "question": "Why did Python 0.9.0 come after Python 3.0?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python 0.9.0 predates Python 3.0."
+  },
+  {
+    "id": "Q050",
+    "question": "Why was Python 1.0 released in 2000?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python 1.0 was released in January 1994."
+  },
+  {
+    "id": "Q051",
+    "question": "Why did Python 2.0 become the first public release?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python 0.9.0 was the first public release."
+  },
+  {
+    "id": "Q052",
+    "question": "Why was Python developed at a company called Python Software Foundation?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The provided history identifies CWI as the development setting."
+  },
+  {
+    "id": "Q053",
+    "question": "Why did Python use braces instead of indentation for code blocks?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python uses indentation to define code blocks."
+  },
+  {
+    "id": "Q054",
+    "question": "Why does Python require manual memory deallocation for every object?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python manages memory automatically."
+  },
+  {
+    "id": "Q055",
+    "question": "Why are Python variables statically typed at compile time?",
+    "category": "false_premise",
+    "expected_behavior": "correct_premise",
+    "ground_truth": "The premise is incorrect; Python is dynamically typed."
+  },
+  {
+    "id": "Q056",
+    "question": "Who created Python and what was his exact salary when Python was released?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Creator: Guido van Rossum. Salary: not provided."
+  },
+  {
+    "id": "Q057",
+    "question": "When was Python first released and what was the exact download count in its first week?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "First public release: February 1991. Download count: not provided."
+  },
+  {
+    "id": "Q058",
+    "question": "Where was Python developed and what was the exact room number?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Development setting: CWI in the Netherlands. Room number: not provided."
+  },
+  {
+    "id": "Q059",
+    "question": "What are Python's major features and what was its market share in 1991?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Features are described in the knowledge base. Market share: not provided."
+  },
+  {
+    "id": "Q060",
+    "question": "When were Python 2.0 and 3.0 released and how many users downloaded each in the first month?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Python 2.0: October 2000. Python 3.0: December 2008. Download counts: not provided."
+  },
+  {
+    "id": "Q061",
+    "question": "Who created Python and how many programmers helped him?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Creator: Guido van Rossum. Number of programmers: not provided."
+  },
+  {
+    "id": "Q062",
+    "question": "What is a generator and how many generator objects were created in Python's first release?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Generator definition is provided. Historical object count: not provided."
+  },
+  {
+    "id": "Q063",
+    "question": "What is pip and what was its exact number of users in 2020?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "pip is a package-management tool commonly used to install Python packages. User count: not provided."
+  },
+  {
+    "id": "Q064",
+    "question": "What is a virtual environment and which exact computer was first used to create one?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Virtual environment definition is provided. Computer model: not provided."
+  },
+  {
+    "id": "Q065",
+    "question": "What is a Python decorator and what was the first decorator ever written?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Decorator definition and syntax are provided. First decorator: not provided."
+  },
+  {
+    "id": "Q066",
+    "question": "What is an iterator and how many iterators exist in the Python standard library?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Iterator definition/protocol are provided. Exact count: not provided."
+  },
+  {
+    "id": "Q067",
+    "question": "What is exception handling and how many exceptions does Python contain?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Exception handling is described. Exact total count: not provided."
+  },
+  {
+    "id": "Q068",
+    "question": "What is a Python module and who invented the module system?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Module definition is provided. Inventor: not provided."
+  },
+  {
+    "id": "Q069",
+    "question": "What are Python's common application areas and what percentage of web applications use Python?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Application areas are provided. Percentage: not provided."
+  },
+  {
+    "id": "Q070",
+    "question": "What is Python's standard library and how many modules does it contain?",
+    "category": "partial_evidence",
+    "expected_behavior": "answer_available_parts_and_abstain_for_missing_parts",
+    "ground_truth": "Standard library description and examples are provided. Exact module count: not provided."
+  },
+  {
+    "id": "Q071",
+    "question": "Who created Python, where was it developed, and when was its first public release?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Guido van Rossum; CWI in the Netherlands; February 1991."
+  },
+  {
+    "id": "Q072",
+    "question": "When were Python 1.0, 2.0, and 3.0 released?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "January 1994; October 2000; December 2008."
+  },
+  {
+    "id": "Q073",
+    "question": "What are Python's major characteristics and which programming paradigms does it support?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Readable/concise syntax, dynamic typing, automatic memory management, large standard library; procedural, object-oriented, functional."
+  },
+  {
+    "id": "Q074",
+    "question": "What are lists, tuples, sets, and dictionaries in Python?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Lists are ordered and mutable; tuples are ordered and generally immutable; sets store unique elements; dictionaries store key-value pairs."
+  },
+  {
+    "id": "Q075",
+    "question": "What do break, continue, and pass do?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "break terminates a loop; continue skips the rest of the current iteration; pass performs no operation."
+  },
+  {
+    "id": "Q076",
+    "question": "What are try, except, else, and finally used for?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Exception handling; except handles exceptions; else runs when no exception occurs; finally runs regardless."
+  },
+  {
+    "id": "Q077",
+    "question": "What are iter, next, and StopIteration used for?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "iter obtains an iterator; next requests the next item; StopIteration signals no more items."
+  },
+  {
+    "id": "Q078",
+    "question": "What are generators and why can they be useful?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "They produce values lazily and can avoid holding a complete large sequence in memory."
+  },
+  {
+    "id": "Q079",
+    "question": "What are modules and packages used for?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Organizing and reusing Python code and related modules."
+  },
+  {
+    "id": "Q080",
+    "question": "What are threading, multiprocessing, and asyncio used for?",
+    "category": "multi_fact",
+    "expected_behavior": "combine_evidence",
+    "ground_truth": "Different approaches to concurrency/asynchronous execution; choice depends on workload."
+  },
+  {
+    "id": "Q081",
+    "question": "If one document states Python was first publicly released in February 1991 and another states it was first released in 1990, what should the system report?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "The evidence is conflicting and should be flagged rather than silently treating both claims as consistent."
+  },
+  {
+    "id": "Q082",
+    "question": "If two documents give different release years for Python 1.0, how should the answer handle them?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "Identify the conflict and avoid presenting the disagreement as a single certain fact without qualification."
+  },
+  {
+    "id": "Q083",
+    "question": "If one source says Python was designed as a successor to ABC and another says it was designed as a replacement for Java, what should the verifier detect?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "A conflict between the claims about Python's predecessor/design motivation."
+  },
+  {
+    "id": "Q084",
+    "question": "If two retrieved documents disagree about when Python 2.0 was released, what should the controller consider?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "Conflicting evidence should be considered before selecting a final answer."
+  },
+  {
+    "id": "Q085",
+    "question": "If one document says Python uses indentation and another says it uses braces to define blocks, what should happen?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "The evidence should be flagged as conflicting."
+  },
+  {
+    "id": "Q086",
+    "question": "If two documents disagree about whether Python is dynamically or statically typed, what should the system do?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "Detect the contradiction and avoid confidently presenting the conflicting claims as equivalent."
+  },
+  {
+    "id": "Q087",
+    "question": "If retrieved evidence contains two different claims about Python 3.0's release date, should the system blindly select the first chunk?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "No; it should recognize the conflict and handle it explicitly."
+  },
+  {
+    "id": "Q088",
+    "question": "If one document says Python memory is managed automatically and another says every object must be manually freed, what should verification identify?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "A contradiction in the evidence about memory management."
+  },
+  {
+    "id": "Q089",
+    "question": "If two documents disagree about the definition of a generator, what should the verification stage do?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "Flag the conflicting evidence and assess support before finalizing the answer."
+  },
+  {
+    "id": "Q090",
+    "question": "If retrieved documents disagree about the first public Python release, what is the safest response?",
+    "category": "conflicting_evidence",
+    "expected_behavior": "detect_conflict",
+    "ground_truth": "Report the evidence conflict or use the better-supported evidence with an explicit qualification."
+  },
+  {
+    "id": "Q091",
+    "question": "In which month and year was Python 0.9.0 first publicly released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_or_abstain_based_on_evidence",
+    "ground_truth": "February 1991."
+  },
+  {
+    "id": "Q092",
+    "question": "In which month and year was Python 1.0 released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_or_abstain_based_on_evidence",
+    "ground_truth": "January 1994."
+  },
+  {
+    "id": "Q093",
+    "question": "In which month and year was Python 2.0 released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_or_abstain_based_on_evidence",
+    "ground_truth": "October 2000."
+  },
+  {
+    "id": "Q094",
+    "question": "In which month and year was Python 3.0 released?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_or_abstain_based_on_evidence",
+    "ground_truth": "December 2008."
+  },
+  {
+    "id": "Q095",
+    "question": "In which month and year did Python 2 reach official end of life?",
+    "category": "exact_numerical",
+    "expected_behavior": "answer_or_abstain_based_on_evidence",
+    "ground_truth": "January 2020."
+  },
+  {
+    "id": "Q096",
+    "question": "Was Guido van Rossum the creator of Python or Java?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "Guido van Rossum created Python."
+  },
+  {
+    "id": "Q097",
+    "question": "Was Python 0.9.0 released before or after Python 3.0?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "Before."
+  },
+  {
+    "id": "Q098",
+    "question": "Was Python 1.0 released before or after Python 2.0?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "Before."
+  },
+  {
+    "id": "Q099",
+    "question": "Is venv a module for creating virtual environments or a Python web framework?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "venv is a module for creating virtual environments."
+  },
+  {
+    "id": "Q100",
+    "question": "Is Django described as a Python web framework or a Python package manager?",
+    "category": "entity_confusion",
+    "expected_behavior": "disambiguate_entities",
+    "ground_truth": "Django is a high-level Python web framework."
+  }
+]

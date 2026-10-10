@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+Lib/
+Scripts/
+.env.example
+
+# Runtime artifacts
+storage/faiss/index.faiss
+storage/faiss/metadata.json

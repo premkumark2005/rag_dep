@@ -1,0 +1,5 @@
+Python has been developed through several major release families. Python 0.9.0 was the first public release and appeared in February 1991. Python 1.0 was released in January 1994.
+
+Python 2.0 was released in October 2000. Python 3.0 was released in December 2008. Python 3 was introduced as a major revision of the language and was not fully backward compatible with Python 2.
+
+Python 2 reached its official end of life in January 2020. Modern Python development focuses on the Python 3 series. Exact release information for minor versions is not included in this document.

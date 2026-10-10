@@ -1,0 +1,5 @@
+Python supports several approaches to concurrent and parallel execution, including threading, multiprocessing, and asynchronous programming.
+
+The threading module provides threads that can be useful for tasks involving waiting, such as many input/output operations. The multiprocessing module can create separate processes.
+
+The asyncio module provides tools for asynchronous programming using an event loop and coroutines. The best approach depends on the workload and the requirements of the application.

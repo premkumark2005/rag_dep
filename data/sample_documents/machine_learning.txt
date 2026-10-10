@@ -1,0 +1,4 @@
+Machine learning is a field of artificial intelligence focused on building systems that learn patterns from data.
+Supervised learning uses labeled data, while unsupervised learning finds patterns without labels.
+Common applications include recommendation systems, classification, and forecasting.
+

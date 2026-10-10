@@ -1,0 +1,5 @@
+Python and Java are both general-purpose programming languages, but they have different language designs and typical development workflows.
+
+Python emphasizes concise syntax, readability, dynamic typing, and rapid development. Java uses a statically typed language model and is commonly associated with the Java Virtual Machine ecosystem.
+
+The available information does not establish that Python was created as a replacement for Java. Python predates the first public release of Java: Python's first public release was in 1991, while Java was publicly introduced later in the 1990s.
