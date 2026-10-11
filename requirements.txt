@@ -1,12 +1,11 @@
-
 --extra-index-url https://download.pytorch.org/whl/cpu
 
 fastapi
 uvicorn
 sentence-transformers==3.4.1
-torch==2.6.0+cpu
-faiss-cpu==1.10.0
-numpy==1.26.4
+torch==2.9.0+cpu
+faiss-cpu
+numpy
 pydantic
 pydantic-settings
 python-dotenv
